@@ -17,6 +17,18 @@
     "paths": {
       "@angular-storybook-tailwind-nx/ui-components": [
         "ui-components/src/index.ts"
+      ],
+      "@angular-storybook-tailwind-nx/ui-components/badge": [
+        "ui-components/badge/src/index.ts"
+      ],
+      "@angular-storybook-tailwind-nx/ui-components/button": [
+        "ui-components/button/src/index.ts"
+      ],
+      "@angular-storybook-tailwind-nx/ui-components/header": [
+        "ui-components/header/src/index.ts"
+      ],
+      "@angular-storybook-tailwind-nx/ui-components/layout": [
+        "ui-components/layout/src/index.ts"
       ]
     }
   },
