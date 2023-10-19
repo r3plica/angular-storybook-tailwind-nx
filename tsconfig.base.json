@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@angular-storybook-tailwind-nx/ui-components/*": ["ui-components/*"],
       "@angular-storybook-tailwind-nx/ui-components": [
         "ui-components/src/index.ts"
       ],

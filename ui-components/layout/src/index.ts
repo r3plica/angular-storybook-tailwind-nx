@@ -1,1 +1,1 @@
-export * from '../../src/lib/templates/layout/layout.component';
+export * from '@angular-storybook-tailwind-nx/ui-components/src/templates/layout';
