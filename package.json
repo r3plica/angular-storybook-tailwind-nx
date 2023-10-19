@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "nx run angular-storybook-tailwind-nx:serve:development",
     "storybook": "nx run ui-components:storybook",
-    "build-storybook": "nx run ui-components:build-storybook"
+    "build-storybook": "nx run ui-components:build-storybook",
+    "build": "nx run angular-storybook-tailwind-nx:build"
   },
   "private": true,
   "dependencies": {
