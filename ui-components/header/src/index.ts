@@ -1,1 +1,1 @@
-export * from '@angular-storybook-tailwind-nx/ui-components/src/lib/header';
+export * from '@angular-storybook-tailwind-nx/ui-components/_core/lib/header';

@@ -17,7 +17,7 @@
     "paths": {
       "@angular-storybook-tailwind-nx/ui-components/*": ["ui-components/*"],
       "@angular-storybook-tailwind-nx/ui-components": [
-        "ui-components/src/index.ts"
+        "ui-components/_core/index.ts"
       ],
       "@angular-storybook-tailwind-nx/ui-components/badge": [
         "ui-components/badge/src/index.ts"
