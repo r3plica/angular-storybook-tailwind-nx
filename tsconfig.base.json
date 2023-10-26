@@ -15,10 +15,16 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@angular-storybook-tailwind-nx/ui-components/*": ["ui-components/*"],
       "@angular-storybook-tailwind-nx/ui-components": [
-        "ui-components/_core/index.ts"
+        "ui-components/index.ts"
       ],
+      "@angular-storybook-tailwind-nx/ui-components-design": [
+        "ui-components-design/index.ts"
+      ],
+      "@angular-storybook-tailwind-nx/ui-components-design/*": [
+        "ui-components-design/*"
+      ],
+      "@angular-storybook-tailwind-nx/ui-components/*": ["ui-components/*"],
       "@angular-storybook-tailwind-nx/ui-components/badge": [
         "ui-components/badge/index.ts"
       ],

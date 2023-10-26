@@ -10,8 +10,7 @@
       "executor": "@nx/angular:ng-packagr-lite",
       "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
       "options": {
-        "project": "ui-components/ng-package.json",
-        "tailwindConfig": "ui-components/tailwind.config.js"
+        "project": "ui-components/ng-package.json"
       },
       "configurations": {
         "production": {
@@ -46,54 +45,6 @@
           "ui-components/**/*.html",
           "ui-components/package.json"
         ]
-      }
-    },
-    "storybook": {
-      "executor": "@storybook/angular:start-storybook",
-      "options": {
-        "port": 4400,
-        "configDir": "ui-components/.storybook",
-        "browserTarget": "ui-components:build-storybook",
-        "compodoc": false,
-        "webpackStatsJson": ""
-      },
-      "configurations": {
-        "ci": {
-          "quiet": true
-        }
-      }
-    },
-    "build-storybook": {
-      "executor": "@storybook/angular:build-storybook",
-      "outputs": ["{options.outputDir}"],
-      "options": {
-        "outputDir": "dist/storybook/ui-components",
-        "configDir": "ui-components/.storybook",
-        "browserTarget": "ui-components:build-storybook",
-        "compodoc": false
-      },
-      "configurations": {
-        "ci": {
-          "quiet": true
-        }
-      }
-    },
-    "test-storybook": {
-      "executor": "nx:run-commands",
-      "options": {
-        "command": "test-storybook -c ui-components/.storybook --url=http://localhost:4400"
-      }
-    },
-    "static-storybook": {
-      "executor": "@nx/web:file-server",
-      "options": {
-        "buildTarget": "ui-components:build-storybook",
-        "staticFilePath": "dist/storybook/ui-components"
-      },
-      "configurations": {
-        "ci": {
-          "buildTarget": "ui-components:build-storybook:ci"
-        }
       }
     }
   }

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HeaderComponent } from '@angular-storybook-tailwind-nx/ui-components/_components/templates/header';
+import { HeaderComponent } from '../header';
 
 @Component({
   selector: 'angular-storybook-tailwind-nx-layout',
