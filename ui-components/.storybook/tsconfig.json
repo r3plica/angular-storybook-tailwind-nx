@@ -5,14 +5,12 @@
   },
   "exclude": ["../**/*.spec.ts"],
   "include": [
-    "../_core/**/*.stories.ts",
-    "../_core/**/*.stories.js",
-    "../_core/**/*.stories.jsx",
-    "../_core/**/*.stories.tsx",
-    "../_core/**/*.stories.mdx",
+    "../_components/**/*.stories.ts",
+    "../_components/**/*.stories.js",
+    "../_components/**/*.stories.jsx",
+    "../_components/**/*.stories.tsx",
+    "../_components/**/*.stories.mdx",
     "*.js",
-    "*.ts",
-    "../_components/atoms/badge/badge.component.stories.ts",
-    "../_components/templates/layout/layout.component.stories.ts"
+    "*.ts"
   ]
 }
