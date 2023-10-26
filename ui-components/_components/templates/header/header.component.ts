@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { BadgeComponent } from '@angular-storybook-tailwind-nx/ui-components/badge';
-import { ButtonComponent } from '@angular-storybook-tailwind-nx/ui-components/button';
+import { BadgeComponent } from '@angular-storybook-tailwind-nx/ui-components/_components/atoms/badge';
+import { ButtonComponent } from '@angular-storybook-tailwind-nx/ui-components/_components/atoms/button';
 
 @Component({
   selector: 'angular-storybook-tailwind-nx-header',

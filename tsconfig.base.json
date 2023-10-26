@@ -20,16 +20,16 @@
         "ui-components/_core/index.ts"
       ],
       "@angular-storybook-tailwind-nx/ui-components/badge": [
-        "ui-components/badge/src/index.ts"
+        "ui-components/badge/index.ts"
       ],
       "@angular-storybook-tailwind-nx/ui-components/button": [
-        "ui-components/button/src/index.ts"
+        "ui-components/button/index.ts"
       ],
       "@angular-storybook-tailwind-nx/ui-components/header": [
-        "ui-components/header/src/index.ts"
+        "ui-components/header/index.ts"
       ],
       "@angular-storybook-tailwind-nx/ui-components/layout": [
-        "ui-components/layout/src/index.ts"
+        "ui-components/layout/index.ts"
       ]
     }
   },

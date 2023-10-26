@@ -11,6 +11,8 @@
     "../_core/**/*.stories.tsx",
     "../_core/**/*.stories.mdx",
     "*.js",
-    "*.ts"
+    "*.ts",
+    "../_components/atoms/badge/badge.component.stories.ts",
+    "../_components/templates/layout/layout.component.stories.ts"
   ]
 }

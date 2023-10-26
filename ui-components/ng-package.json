@@ -2,6 +2,6 @@
   "$schema": "../node_modules/ng-packagr/ng-package.schema.json",
   "dest": "../dist/ui-components",
   "lib": {
-    "entryFile": "_core/index.ts"
+    "entryFile": "index.ts"
   }
 }

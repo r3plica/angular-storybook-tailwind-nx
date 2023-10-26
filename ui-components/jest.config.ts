@@ -2,7 +2,7 @@
 export default {
   displayName: 'ui-components',
   preset: '../jest.preset.js',
-  setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
+  setupFilesAfterEnv: ['<rootDir>/test-setup.ts'],
   coverageDirectory: '../coverage/ui-components',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
