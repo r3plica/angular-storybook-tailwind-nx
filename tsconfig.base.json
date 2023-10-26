@@ -1,0 +1,37 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@angular-storybook-tailwind-nx/ui-components/*": ["ui-components/*"],
+      "@angular-storybook-tailwind-nx/ui-components": [
+        "ui-components/_core/index.ts"
+      ],
+      "@angular-storybook-tailwind-nx/ui-components/badge": [
+        "ui-components/badge/index.ts"
+      ],
+      "@angular-storybook-tailwind-nx/ui-components/button": [
+        "ui-components/button/index.ts"
+      ],
+      "@angular-storybook-tailwind-nx/ui-components/header": [
+        "ui-components/header/index.ts"
+      ],
+      "@angular-storybook-tailwind-nx/ui-components/layout": [
+        "ui-components/layout/index.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
